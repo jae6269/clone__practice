@@ -112,7 +112,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url('./images/home2.avif');
+  background-image: url('./images/home2.png');
 }
 .body__home2__contents {
   width: 100%;
@@ -155,7 +155,8 @@
   position: relative;
   width: 100%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 비율을 가진 영상의 경우 */
+  padding-bottom: 56.25%;
+  /* 16:9 비율을 가진 영상의 경우 */
 }
 
 .home3__video__container iframe {
@@ -168,9 +169,8 @@
 .home3__text__container {
   position: absolute;
   top: 280vh;
-  left: 3%;
+  left: 2%;
   width: 746px;
-  height: 177px;
 }
 .home3__title h1 {
   font-size: 50px;
@@ -179,4 +179,16 @@
 .home3__text p {
   font-size: 30px;
   font-weight: 150;
+}
+/* 
+홈화면의 네번째 화면
+ */
+.body__home4 {
+  position: absolute;
+  top: 312vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('./images/home4.png');
+  background-size: cover;
 }
