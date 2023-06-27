@@ -16,3 +16,8 @@ function showSlide() {
 
 // 일정 간격으로 슬라이드 전환 실행
 setInterval(showSlide, 3000);
+
+var main_logo = document.getElementById('logo');
+main_logo.addEventListener('click', function () {
+  window.location.href = 'joby_home.html';
+});
