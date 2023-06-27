@@ -110,3 +110,37 @@
   height: 100vh;
   background-image: url('./images/home2.avif');
 }
+.body__home2__contents {
+  width: 100%;
+  height: 70%;
+  padding: 60px 300px 100px 300px;
+  display: flex;
+  flex-direction: column;
+}
+.home2__title {
+  margin: 0;
+}
+.home2__title h1 {
+  width: 100%;
+  font-size: 50px;
+  color: #393d47;
+  margin: 0;
+}
+.home2__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 70px;
+}
+.home2__text__left,
+.home2__text__right {
+  font-size: 30px;
+  color: #62687a;
+}
+.home2__icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #62687a;
+}
