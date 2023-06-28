@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 .wrapper {
   display: flex;
@@ -51,10 +52,7 @@
    */
 
 .body__home1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   overflow: hidden;
   display: flex;
@@ -107,10 +105,7 @@
   홈화면의 두번째 화면
   */
 .body__home2 {
-  position: absolute;
-  top: 100vh;
-  left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url('./images/home2.png');
 }
@@ -151,44 +146,49 @@
 /* 
 홈화면의 세번째 화면
  */
+.body__home3 {
+  width: 100vw;
+  height: 100vh;
+}
 .home3__video__container {
-  position: relative;
   width: 100%;
-  height: 0;
-  padding-bottom: 56.25%;
+  height: 100%;
+
   /* 16:9 비율을 가진 영상의 경우 */
 }
 
 .home3__video__container iframe {
-  position: absolute;
-  top: 200vh;
-  left: 0;
   width: 100%;
   height: 100%;
 }
 .home3__text__container {
   position: absolute;
-  top: 280vh;
-  left: 2%;
+  top: 268vh;
+  left: 35%;
+  z-index: 1;
   width: 746px;
 }
 .home3__title h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 200;
+  margin-bottom: 5px;
 }
 .home3__text p {
   font-size: 30px;
   font-weight: 150;
+  margin-top: 10px;
 }
 /* 
 홈화면의 네번째 화면
  */
 .body__home4 {
-  position: absolute;
-  top: 312vh;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-image: url('./images/home4.png');
   background-size: cover;
+}
+.home4__text__container {
+  width: 40%;
+  height: 60%;
+  z-index: 1;
 }
