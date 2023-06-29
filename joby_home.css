@@ -287,7 +287,7 @@
 /*홈화면의 여섯번째 화면 */
 .body__home6 {
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   padding-left: 80px;
@@ -317,9 +317,10 @@
 }
 .home6__news a {
   width: 500px;
-  height: 680px;
+  height: 800px;
 
   cursor: pointer;
+  text-decoration: none;
 }
 .home6__news1,
 .home6__news2,
@@ -339,7 +340,23 @@
 .news3__text {
   width: 100%;
   height: 60%;
-  background-color: #62687a;
+  padding: 30px;
   display: flex;
   flex-direction: column;
+  gap: 5px;
+}
+.text1 {
+  font-size: 16px;
+  color: #006ac6;
+  font-weight: bold;
+}
+.text2 {
+  font-size: 22px;
+  color: #393d47;
+  font-weight: normal;
+}
+.text3 {
+  font-size: 18px;
+  color: #393d47;
+  font-weight: lighter;
 }
