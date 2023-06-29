@@ -284,3 +284,32 @@
   font-weight: 600;
   color: white;
 }
+/*홈화면의 여섯번째 화면 */
+.body__home6 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.home6__header {
+  width: 100%;
+  height: 150px;
+  font-size: 28px;
+  font-weight: 5;
+  color: #62687a;
+}
+.home6__body {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home6__news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
