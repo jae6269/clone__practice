@@ -109,7 +109,7 @@
 .body__home2 {
   width: 100vw;
   height: 100vh;
-  background-image: url('./images/home2.png');
+  background-image: url('../images/home2.png');
   background-position: center bottom;
   background-size: cover;
 }
@@ -188,7 +188,7 @@
 .body__home4 {
   width: 100vw;
   height: 100vh;
-  background-image: url('./images/home4.png');
+  background-image: url('../images/home4.png');
   background-size: cover;
 }
 .home4__text__container {
@@ -242,7 +242,7 @@
 .body__home5 {
   width: 100vw;
   height: 100vh;
-  background-image: url('./images/home5.avif');
+  background-image: url('../images/home5.avif');
   background-size: cover;
 }
 .home5__container {
