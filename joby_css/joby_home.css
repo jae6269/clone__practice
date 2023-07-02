@@ -408,7 +408,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   /* 위의 라인으로 글씨가 정확하게 가운데로 이동 */
-  z-index: 1;
+
   display: flex;
   flex-direction: column;
   align-items: center;
