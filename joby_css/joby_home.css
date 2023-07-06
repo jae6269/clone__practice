@@ -458,3 +458,20 @@
   color: white;
   text-align: center;
 }
+
+/* 스토리화면 3 */
+.body__story3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story3.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.story3__story14__container {
+  width: 87%;
+  height: 100%;
+  border-left: 2px solid white;
+}
