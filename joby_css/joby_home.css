@@ -467,11 +467,16 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
 }
 
-.story3__story14__container {
+.story3__textcontainer {
   width: 87%;
   height: 100%;
+  margin-left: 13%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-left: 2px solid white;
 }
