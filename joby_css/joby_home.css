@@ -504,3 +504,112 @@
   flex-direction: column;
   align-items: center;
 }
+/* 스토리화면 5 */
+.body__story5 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story5.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 6 */
+.body__story6 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story6.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 7 */
+.body__story7 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story7.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 8 */
+.body__story8 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story8.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 9 */
+.body__story9 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story9.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 10 */
+.body__story10 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story10.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 11 */
+.body__story11 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story11.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 12 */
+.body__story12 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story12.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 13 */
+.body__story13 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story13.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* 스토리화면 14 */
+.body__story14 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../images/story14.avif);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
