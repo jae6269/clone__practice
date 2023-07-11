@@ -613,6 +613,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 200px;
+  box-shadow: inset 0px -150px 4000px rgb(26, 26, 26);
 }
 
 .story14__title {
