@@ -627,3 +627,52 @@
   color: white;
   text-shadow: black 0px 0px 30px;
 }
+
+/* 커리어화면 1 */
+
+.careers1__video__container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+.careers1__video__container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.careers1__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+
+  /* 위의 라인으로 글씨가 정확하게 가운데로 이동 */
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.careers1__title span {
+  font-size: 100px;
+  font-weight: lighter;
+  color: white;
+}
+.careers1__watchLink {
+  display: flex;
+  flex-direction: row;
+}
+
+.careers1__watchLink svg {
+  font-size: 20px;
+  color: #006ac6;
+}
+.careers1__watchLink a {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
