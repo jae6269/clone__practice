@@ -676,3 +676,17 @@
   color: white;
   text-decoration: none;
 }
+.body__careers2,
+.body__careers3,
+.body__careers4 {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+}
+.careers__left,
+.careers__right {
+  width: 50%;
+  height: 100%;
+  overflow-y: hidden;
+}
