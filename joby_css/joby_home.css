@@ -689,4 +689,25 @@
   width: 50%;
   height: 100%;
   overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.careers__textcontainer {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.careers__textcontainer h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #393d47;
+}
+.careers__textcontainer p {
+  font-size: 23px;
+  font-weight: 350;
+  color: #393d47;
 }
