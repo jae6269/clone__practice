@@ -716,14 +716,36 @@
 .body__careers5 {
   width: 100%;
   height: 100vh;
-  background-image: url(../images/careers5.avif);
-
+  background-image: url(https://images.prismic.io/joby-site/caef4618-9991-4b3f-ab1d-6701e15e7d17_N542BJ+on+the+Tarmac.jpg?auto=compress,format&fit=crop&crop=faces&rect=null&q=80&blend-color=null&blend-mode=null&w=1400&h=963&dpr=1);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
 
   align-items: center;
   justify-content: center;
 }
 .body__careers5 span {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 300;
+  margin-bottom: 150px;
+}
+
+/* 뉴스룸 화면1 */
+.body__newsroom1 {
+  position: absolute;
+  width: 100%;
+  height: 120vh;
+  top: -20vh;
+  background-image: url(https://images.prismic.io/joby-site/d9a0c179-8186-46c2-b3ea-197492981f19_356.jpg?auto=compress,format&fit=crop&crop=faces&rect=null&q=80&blend-color=null&blend-mode=null&w=1400&h=931&dpr=1);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.body__newsroom1 span {
+  margin-top: 800px;
+  font-size: 60px;
+  color: white;
 }
